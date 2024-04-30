@@ -11,21 +11,5 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class AwsConfig {
 
-//    @Value("AKIAYPNNYFMDABAR63YK")
-//    private String accessKeyId;
-//
-//    @Value("IE6hBuqhuUNUnRb1JIGE+/pqeXpcSpZYWZL87pHS")
-//    private String accessKeySecret;
-//
-//    @Value("us-east-1")
-//    private String regionName;
-//
-//    @Bean
-//    public AmazonS3 getAmaxonS3Client(){
-//        final BasicAWSCredentials basicAWSCredentials = new BasicAWSCredentials(accessKeyId,accessKeySecret);
-//        return AmazonS3ClientBuilder.standard().withCredentials(new AWSStaticCredentialsProvider(basicAWSCredentials))
-//                .withRegion(regionName)
-//                .build();
-//
-//    }
+
 }
